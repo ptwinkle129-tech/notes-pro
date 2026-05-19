@@ -1,0 +1,27 @@
+.ql-editor {
+  min-height: 150px;
+  font-size: 16px;
+}
+
+.dark-editor .ql-toolbar {
+  background: #111827;
+  border: none;
+}
+
+.dark-editor .ql-container {
+  background: #1e293b;
+  color: white;
+  border: none;
+}
+
+.dark-editor .ql-editor {
+  color: white;
+}
+
+.dark-editor .ql-stroke {
+  stroke: white;
+}
+
+.dark-editor .ql-fill {
+  fill: white;
+}
