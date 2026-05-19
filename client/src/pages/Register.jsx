@@ -11,7 +11,7 @@ export default function Register() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://notes-pro-0tyl.onrender.com/api/auth/register",
         {
           email,
           password

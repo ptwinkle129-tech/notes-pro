@@ -44,7 +44,7 @@ export default function Dashboard() {
 
       const res = await axios.get(
 
-        "http://localhost:5000/api/notes",
+        "https://notes-pro-0tyl.onrender.com",
 
         {
           headers: {
@@ -110,7 +110,7 @@ export default function Dashboard() {
 
       await axios.post(
 
-        "http://localhost:5000/api/notes",
+        "https://notes-pro-0tyl.onrender.com",
 
         {
           title,

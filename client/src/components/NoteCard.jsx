@@ -118,7 +118,7 @@ export default function NoteCard({
 
       await axios.put(
 
-        `http://localhost:5000/api/notes/archive/${note._id}`,
+        `https://notes-pro-0tyl.onrender.com${note._id}`,
 
         {},
 
