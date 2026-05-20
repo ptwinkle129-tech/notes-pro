@@ -31,7 +31,7 @@ export default function NoteCard({
 
       await axios.delete(
 
-        `http://localhost:5000/api/notes/${note._id}`,
+        `https://notes-pro-0tyl.onrender.com${note._id}`,
 
         {
           headers: {
@@ -57,7 +57,7 @@ export default function NoteCard({
 
       await axios.put(
 
-        `http://localhost:5000/api/notes/${note._id}`,
+        `https://notes-pro-0tyl.onrender.com${note._id}`,
 
         {
           title: editTitle,
@@ -90,7 +90,7 @@ export default function NoteCard({
 
       await axios.put(
 
-        `http://localhost:5000/api/notes/pin/${note._id}`,
+        `https://notes-pro-0tyl.onrender.com${note._id}`,
 
         {},
 
